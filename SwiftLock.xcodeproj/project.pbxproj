@@ -131,7 +131,7 @@
 		2A604ED4200A78F6005F3F1C /* SwiftLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A604ED7200A78F6005F3F1C /* SwiftLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftLock.h; sourceTree = "<group>"; };
 		2A604ED8200A78F7005F3F1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A604EDD200A78F7005F3F1C /* SwiftLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A604EDD200A78F7005F3F1C /* SwiftLock-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftLock-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A604EE4200A78F7005F3F1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A604EEE200A7A17005F3F1C /* DefaultSwiftLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSwiftLock.swift; sourceTree = "<group>"; };
 		2A604EF5200A7AC8005F3F1C /* ClearAppLockPasscodeUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClearAppLockPasscodeUseCase.swift; sourceTree = "<group>"; };
@@ -249,7 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				2A604ED4200A78F6005F3F1C /* SwiftLock.framework */,
-				2A604EDD200A78F7005F3F1C /* SwiftLockTests.xctest */,
+				2A604EDD200A78F7005F3F1C /* SwiftLock-iOSTests.xctest */,
 				2A8A0A82200C7031009B5D4C /* SwiftLock.framework */,
 				2A8A0A8A200C7032009B5D4C /* SwiftLock-macOSTests.xctest */,
 			);
@@ -521,9 +521,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2A604ED3200A78F6005F3F1C /* SwiftLock */ = {
+		2A604ED3200A78F6005F3F1C /* SwiftLock-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A604EE8200A78F7005F3F1C /* Build configuration list for PBXNativeTarget "SwiftLock" */;
+			buildConfigurationList = 2A604EE8200A78F7005F3F1C /* Build configuration list for PBXNativeTarget "SwiftLock-iOS" */;
 			buildPhases = (
 				2A604ECF200A78F6005F3F1C /* Sources */,
 				2A604ED0200A78F6005F3F1C /* Frameworks */,
@@ -536,14 +536,14 @@
 			);
 			dependencies = (
 			);
-			name = SwiftLock;
+			name = "SwiftLock-iOS";
 			productName = SwiftLock;
 			productReference = 2A604ED4200A78F6005F3F1C /* SwiftLock.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2A604EDC200A78F7005F3F1C /* SwiftLockTests */ = {
+		2A604EDC200A78F7005F3F1C /* SwiftLock-iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A604EEB200A78F7005F3F1C /* Build configuration list for PBXNativeTarget "SwiftLockTests" */;
+			buildConfigurationList = 2A604EEB200A78F7005F3F1C /* Build configuration list for PBXNativeTarget "SwiftLock-iOSTests" */;
 			buildPhases = (
 				2A604ED9200A78F7005F3F1C /* Sources */,
 				2A604EDA200A78F7005F3F1C /* Frameworks */,
@@ -556,9 +556,9 @@
 			dependencies = (
 				2A604EE0200A78F7005F3F1C /* PBXTargetDependency */,
 			);
-			name = SwiftLockTests;
+			name = "SwiftLock-iOSTests";
 			productName = SwiftLockTests;
-			productReference = 2A604EDD200A78F7005F3F1C /* SwiftLockTests.xctest */;
+			productReference = 2A604EDD200A78F7005F3F1C /* SwiftLock-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		2A8A0A81200C7031009B5D4C /* SwiftLock-macOS */ = {
@@ -641,8 +641,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A604ED3200A78F6005F3F1C /* SwiftLock */,
-				2A604EDC200A78F7005F3F1C /* SwiftLockTests */,
+				2A604ED3200A78F6005F3F1C /* SwiftLock-iOS */,
+				2A604EDC200A78F7005F3F1C /* SwiftLock-iOSTests */,
 				2A8A0A81200C7031009B5D4C /* SwiftLock-macOS */,
 				2A8A0A89200C7032009B5D4C /* SwiftLock-macOSTests */,
 			);
@@ -909,7 +909,7 @@
 /* Begin PBXTargetDependency section */
 		2A604EE0200A78F7005F3F1C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2A604ED3200A78F6005F3F1C /* SwiftLock */;
+			target = 2A604ED3200A78F6005F3F1C /* SwiftLock-iOS */;
 			targetProxy = 2A604EDF200A78F7005F3F1C /* PBXContainerItemProxy */;
 		};
 		2A8A0A8D200C7032009B5D4C /* PBXTargetDependency */ = {
@@ -1051,7 +1051,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = at.takac.SwiftLock;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = SwiftLock;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -1077,7 +1077,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = at.takac.SwiftLock;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = SwiftLock;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1233,7 +1233,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A604EE8200A78F7005F3F1C /* Build configuration list for PBXNativeTarget "SwiftLock" */ = {
+		2A604EE8200A78F7005F3F1C /* Build configuration list for PBXNativeTarget "SwiftLock-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A604EE9200A78F7005F3F1C /* Debug */,
@@ -1242,7 +1242,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A604EEB200A78F7005F3F1C /* Build configuration list for PBXNativeTarget "SwiftLockTests" */ = {
+		2A604EEB200A78F7005F3F1C /* Build configuration list for PBXNativeTarget "SwiftLock-iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A604EEC200A78F7005F3F1C /* Debug */,
