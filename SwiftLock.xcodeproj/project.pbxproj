@@ -58,6 +58,56 @@
 		2A8A0A4C200B5222009B5D4C /* DefaultBiometricAuthenticationDisablingUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0A4B200B5222009B5D4C /* DefaultBiometricAuthenticationDisablingUseCase.swift */; };
 		2A8A0A4E200B5239009B5D4C /* DefaultBiometricAuthenticationStatusUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0A4D200B5239009B5D4C /* DefaultBiometricAuthenticationStatusUseCase.swift */; };
 		2A8A0A51200C6C4C009B5D4C /* CryptoSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A604F39200AA6E5005F3F1C /* CryptoSupport.swift */; };
+		2A8A0A8B200C7032009B5D4C /* SwiftLock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8A0A82200C7031009B5D4C /* SwiftLock.framework */; };
+		2A8A0A99200C7081009B5D4C /* SecurityServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0A26200B2A9E009B5D4C /* SecurityServiceTests.swift */; };
+		2A8A0A9A200C7081009B5D4C /* CommonCryptoHashServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A604F28200A8107005F3F1C /* CommonCryptoHashServiceTests.swift */; };
+		2A8A0A9B200C7081009B5D4C /* AESCryptorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A604F2C200A81B3005F3F1C /* AESCryptorTests.swift */; };
+		2A8A0A9C200C7081009B5D4C /* CommonCryptoSecureRandomDataGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A604F32200A85E6005F3F1C /* CommonCryptoSecureRandomDataGeneratorTests.swift */; };
+		2A8A0A9D200C7081009B5D4C /* UserDefaultsIVProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A604F37200A9C1E005F3F1C /* UserDefaultsIVProviderTests.swift */; };
+		2A8A0A9E200C7084009B5D4C /* CryptorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0A2B200B2AFD009B5D4C /* CryptorMock.swift */; };
+		2A8A0A9F200C7084009B5D4C /* HashServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0A28200B2AD9009B5D4C /* HashServiceMock.swift */; };
+		2A8A0AA0200C7084009B5D4C /* KeychainMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0A21200B27C9009B5D4C /* KeychainMock.swift */; };
+		2A8A0AA1200C7084009B5D4C /* SecureRandomDataGeneratorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0A2E200B2E96009B5D4C /* SecureRandomDataGeneratorMock.swift */; };
+		2A8A0AA2200C7087009B5D4C /* CryptoSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A604F39200AA6E5005F3F1C /* CryptoSupport.swift */; };
+		2A8A0AA3200C7087009B5D4C /* XCTFailError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A604F34200A864B005F3F1C /* XCTFailError.swift */; };
+		2A8A0AA4200C7094009B5D4C /* SwiftLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0A40200B4EE2009B5D4C /* SwiftLock.swift */; };
+		2A8A0AA5200C7094009B5D4C /* CryptoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A604F24200A80A9005F3F1C /* CryptoError.swift */; };
+		2A8A0AA6200C7094009B5D4C /* LocalSecurityError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0A23200B286B009B5D4C /* LocalSecurityError.swift */; };
+		2A8A0AA7200C7097009B5D4C /* BiometricAuthenticationEnrollmentUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A604F0E200A7D40005F3F1C /* BiometricAuthenticationEnrollmentUseCase.swift */; };
+		2A8A0AA8200C7097009B5D4C /* BiometricAppUnlockUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A604F0C200A7D22005F3F1C /* BiometricAppUnlockUseCase.swift */; };
+		2A8A0AA9200C7097009B5D4C /* BiometricAuthenticationDisablingUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A604F10200A7D5C005F3F1C /* BiometricAuthenticationDisablingUseCase.swift */; };
+		2A8A0AAA200C7097009B5D4C /* BiometricAuthenticationStatusUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A604F0A200A7D03005F3F1C /* BiometricAuthenticationStatusUseCase.swift */; };
+		2A8A0AAB200C709B009B5D4C /* AppDecryptionKeyUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A604F19200A7ECE005F3F1C /* AppDecryptionKeyUseCase.swift */; };
+		2A8A0AAC200C709B009B5D4C /* AppLockStatusUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A604F12200A7D7F005F3F1C /* AppLockStatusUseCase.swift */; };
+		2A8A0AAD200C709B009B5D4C /* ClearAppLockPasscodeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A604EF5200A7AC8005F3F1C /* ClearAppLockPasscodeUseCase.swift */; };
+		2A8A0AAE200C709B009B5D4C /* LockAppUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A604EF9200A7AC9005F3F1C /* LockAppUseCase.swift */; };
+		2A8A0AAF200C709B009B5D4C /* SetAppLockPasscodeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A604EFA200A7AC9005F3F1C /* SetAppLockPasscodeUseCase.swift */; };
+		2A8A0AB0200C709B009B5D4C /* UnlockAppUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A604F16200A7DD7005F3F1C /* UnlockAppUseCase.swift */; };
+		2A8A0AB1200C70A6009B5D4C /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0A16200B25D8009B5D4C /* Keychain.swift */; };
+		2A8A0AB2200C70A6009B5D4C /* BiometricKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0A42200B508E009B5D4C /* BiometricKeychain.swift */; };
+		2A8A0AB3200C70AA009B5D4C /* Cryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A604F2A200A8160005F3F1C /* Cryptor.swift */; };
+		2A8A0AB4200C70AA009B5D4C /* HashService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A604F21200A8056005F3F1C /* HashService.swift */; };
+		2A8A0AB5200C70AA009B5D4C /* IVProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A604F2E200A83BE005F3F1C /* IVProvider.swift */; };
+		2A8A0AB6200C70AA009B5D4C /* SecureRandomDataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A604F30200A856E005F3F1C /* SecureRandomDataGenerator.swift */; };
+		2A8A0AB7200C70AF009B5D4C /* DefaultAppDecryptionKeyUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0A34200B4BE0009B5D4C /* DefaultAppDecryptionKeyUseCase.swift */; };
+		2A8A0AB8200C70AF009B5D4C /* DefaultAppLockStatusUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0A36200B4C2A009B5D4C /* DefaultAppLockStatusUseCase.swift */; };
+		2A8A0AB9200C70AF009B5D4C /* DefaultClearAppLockPasscodeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0A38200B4C3C009B5D4C /* DefaultClearAppLockPasscodeUseCase.swift */; };
+		2A8A0ABA200C70AF009B5D4C /* DefaultLockAppUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0A3A200B4C4E009B5D4C /* DefaultLockAppUseCase.swift */; };
+		2A8A0ABB200C70AF009B5D4C /* DefaultSetAppLockPasscodeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0A3C200B4C5B009B5D4C /* DefaultSetAppLockPasscodeUseCase.swift */; };
+		2A8A0ABC200C70AF009B5D4C /* DefaultUnlockAppUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0A3E200B4C6F009B5D4C /* DefaultUnlockAppUseCase.swift */; };
+		2A8A0ABD200C70B3009B5D4C /* DefaultBiometricAppEnrollmentUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0A47200B51FD009B5D4C /* DefaultBiometricAppEnrollmentUseCase.swift */; };
+		2A8A0ABE200C70B3009B5D4C /* DefaultBiometricAppUnlockUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0A49200B5210009B5D4C /* DefaultBiometricAppUnlockUseCase.swift */; };
+		2A8A0ABF200C70B3009B5D4C /* DefaultBiometricAuthenticationDisablingUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0A4B200B5222009B5D4C /* DefaultBiometricAuthenticationDisablingUseCase.swift */; };
+		2A8A0AC0200C70B3009B5D4C /* DefaultBiometricAuthenticationStatusUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0A4D200B5239009B5D4C /* DefaultBiometricAuthenticationStatusUseCase.swift */; };
+		2A8A0AC1200C70B7009B5D4C /* SecurityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0A11200B2391009B5D4C /* SecurityService.swift */; };
+		2A8A0AC2200C70B7009B5D4C /* BiometricSecurityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0A44200B50CB009B5D4C /* BiometricSecurityService.swift */; };
+		2A8A0AC3200C70BA009B5D4C /* DefaultSwiftLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A604EEE200A7A17005F3F1C /* DefaultSwiftLock.swift */; };
+		2A8A0AC4200C70BA009B5D4C /* SwiftLockConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A604F1B200A7F42005F3F1C /* SwiftLockConfiguration.swift */; };
+		2A8A0AC6200C70DF009B5D4C /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8A0AC5200C70DF009B5D4C /* RxSwift.framework */; };
+		2A8A0AC9200C70FC009B5D4C /* KeychainAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8A0AC7200C70FC009B5D4C /* KeychainAccess.framework */; };
+		2A8A0ACA200C70FC009B5D4C /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8A0AC8200C70FC009B5D4C /* IDZSwiftCommonCrypto.framework */; };
+		2A8A0ACE200C728D009B5D4C /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8A0AC5200C70DF009B5D4C /* RxSwift.framework */; };
+		2A8A0AD0200C728E009B5D4C /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8A0ACF200C728D009B5D4C /* RxBlocking.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +117,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 2A604ED3200A78F6005F3F1C;
 			remoteInfo = SwiftLock;
+		};
+		2A8A0A8C200C7032009B5D4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A604ECB200A78F6005F3F1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A8A0A81200C7031009B5D4C;
+			remoteInfo = "SwiftLock-macOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -125,6 +182,12 @@
 		2A8A0A4B200B5222009B5D4C /* DefaultBiometricAuthenticationDisablingUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultBiometricAuthenticationDisablingUseCase.swift; sourceTree = "<group>"; };
 		2A8A0A4D200B5239009B5D4C /* DefaultBiometricAuthenticationStatusUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultBiometricAuthenticationStatusUseCase.swift; sourceTree = "<group>"; };
 		2A8A0A4F200C64A8009B5D4C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2A8A0A82200C7031009B5D4C /* SwiftLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8A0A8A200C7032009B5D4C /* SwiftLock-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftLock-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8A0AC5200C70DF009B5D4C /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
+		2A8A0AC7200C70FC009B5D4C /* KeychainAccess.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainAccess.framework; path = Carthage/Build/Mac/KeychainAccess.framework; sourceTree = "<group>"; };
+		2A8A0AC8200C70FC009B5D4C /* IDZSwiftCommonCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDZSwiftCommonCrypto.framework; path = Carthage/Build/Mac/IDZSwiftCommonCrypto.framework; sourceTree = "<group>"; };
+		2A8A0ACF200C728D009B5D4C /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/Mac/RxBlocking.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +211,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2A8A0A7E200C7031009B5D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8A0AC9200C70FC009B5D4C /* KeychainAccess.framework in Frameworks */,
+				2A8A0ACA200C70FC009B5D4C /* IDZSwiftCommonCrypto.framework in Frameworks */,
+				2A8A0AC6200C70DF009B5D4C /* RxSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8A0A87200C7032009B5D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8A0AD0200C728E009B5D4C /* RxBlocking.framework in Frameworks */,
+				2A8A0ACE200C728D009B5D4C /* RxSwift.framework in Frameworks */,
+				2A8A0A8B200C7032009B5D4C /* SwiftLock.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -167,6 +250,8 @@
 			children = (
 				2A604ED4200A78F6005F3F1C /* SwiftLock.framework */,
 				2A604EDD200A78F7005F3F1C /* SwiftLockTests.xctest */,
+				2A8A0A82200C7031009B5D4C /* SwiftLock.framework */,
+				2A8A0A8A200C7032009B5D4C /* SwiftLock-macOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -235,6 +320,10 @@
 		2A604F03200A7CA4005F3F1C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2A8A0ACF200C728D009B5D4C /* RxBlocking.framework */,
+				2A8A0AC8200C70FC009B5D4C /* IDZSwiftCommonCrypto.framework */,
+				2A8A0AC7200C70FC009B5D4C /* KeychainAccess.framework */,
+				2A8A0AC5200C70DF009B5D4C /* RxSwift.framework */,
 				2A8A0A30200B2F48009B5D4C /* RxBlocking.framework */,
 				2A8A0A18200B26CF009B5D4C /* KeychainAccess.framework */,
 				2A604F05200A7CA4005F3F1C /* IDZSwiftCommonCrypto.framework */,
@@ -422,6 +511,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2A8A0A7F200C7031009B5D4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -465,6 +561,44 @@
 			productReference = 2A604EDD200A78F7005F3F1C /* SwiftLockTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		2A8A0A81200C7031009B5D4C /* SwiftLock-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A8A0A97200C7032009B5D4C /* Build configuration list for PBXNativeTarget "SwiftLock-macOS" */;
+			buildPhases = (
+				2A8A0A7D200C7031009B5D4C /* Sources */,
+				2A8A0A7E200C7031009B5D4C /* Frameworks */,
+				2A8A0A7F200C7031009B5D4C /* Headers */,
+				2A8A0A80200C7031009B5D4C /* Resources */,
+				2A8A0ACB200C710E009B5D4C /* Copy Carthage Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftLock-macOS";
+			productName = "SwiftLock-macOS";
+			productReference = 2A8A0A82200C7031009B5D4C /* SwiftLock.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2A8A0A89200C7032009B5D4C /* SwiftLock-macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A8A0A98200C7032009B5D4C /* Build configuration list for PBXNativeTarget "SwiftLock-macOSTests" */;
+			buildPhases = (
+				2A8A0A86200C7032009B5D4C /* Sources */,
+				2A8A0A87200C7032009B5D4C /* Frameworks */,
+				2A8A0A88200C7032009B5D4C /* Resources */,
+				2A8A0ACD200C71F7009B5D4C /* Copy Carthage Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A8A0A8D200C7032009B5D4C /* PBXTargetDependency */,
+			);
+			name = "SwiftLock-macOSTests";
+			productName = "SwiftLock-macOSTests";
+			productReference = 2A8A0A8A200C7032009B5D4C /* SwiftLock-macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -485,6 +619,14 @@
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
+					2A8A0A81200C7031009B5D4C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2A8A0A89200C7032009B5D4C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 2A604ECE200A78F6005F3F1C /* Build configuration list for PBXProject "SwiftLock" */;
@@ -501,6 +643,8 @@
 			targets = (
 				2A604ED3200A78F6005F3F1C /* SwiftLock */,
 				2A604EDC200A78F7005F3F1C /* SwiftLockTests */,
+				2A8A0A81200C7031009B5D4C /* SwiftLock-macOS */,
+				2A8A0A89200C7032009B5D4C /* SwiftLock-macOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -514,6 +658,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2A604EDB200A78F7005F3F1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8A0A80200C7031009B5D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8A0A88200C7032009B5D4C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -589,6 +747,44 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
+		2A8A0ACB200C710E009B5D4C /* Copy Carthage Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/Mac/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/Mac/IDZSwiftCommonCrypto.framework",
+				"$(SRCROOT)/Carthage/Build/Mac/KeychainAccess.framework",
+			);
+			name = "Copy Carthage Frameworks";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/IDZSwiftCommonCrypto.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/KeychainAccess.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		2A8A0ACD200C71F7009B5D4C /* Copy Carthage Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/Mac/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/Mac/RxSwift.framework",
+			);
+			name = "Copy Carthage Frameworks";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxBlocking.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -650,6 +846,64 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2A8A0A7D200C7031009B5D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8A0AB8200C70AF009B5D4C /* DefaultAppLockStatusUseCase.swift in Sources */,
+				2A8A0AB7200C70AF009B5D4C /* DefaultAppDecryptionKeyUseCase.swift in Sources */,
+				2A8A0ABD200C70B3009B5D4C /* DefaultBiometricAppEnrollmentUseCase.swift in Sources */,
+				2A8A0AC1200C70B7009B5D4C /* SecurityService.swift in Sources */,
+				2A8A0AAD200C709B009B5D4C /* ClearAppLockPasscodeUseCase.swift in Sources */,
+				2A8A0AA7200C7097009B5D4C /* BiometricAuthenticationEnrollmentUseCase.swift in Sources */,
+				2A8A0AA4200C7094009B5D4C /* SwiftLock.swift in Sources */,
+				2A8A0AC0200C70B3009B5D4C /* DefaultBiometricAuthenticationStatusUseCase.swift in Sources */,
+				2A8A0AB4200C70AA009B5D4C /* HashService.swift in Sources */,
+				2A8A0ABE200C70B3009B5D4C /* DefaultBiometricAppUnlockUseCase.swift in Sources */,
+				2A8A0ABA200C70AF009B5D4C /* DefaultLockAppUseCase.swift in Sources */,
+				2A8A0AA6200C7094009B5D4C /* LocalSecurityError.swift in Sources */,
+				2A8A0AC3200C70BA009B5D4C /* DefaultSwiftLock.swift in Sources */,
+				2A8A0AC2200C70B7009B5D4C /* BiometricSecurityService.swift in Sources */,
+				2A8A0AA8200C7097009B5D4C /* BiometricAppUnlockUseCase.swift in Sources */,
+				2A8A0AAB200C709B009B5D4C /* AppDecryptionKeyUseCase.swift in Sources */,
+				2A8A0AAE200C709B009B5D4C /* LockAppUseCase.swift in Sources */,
+				2A8A0AB0200C709B009B5D4C /* UnlockAppUseCase.swift in Sources */,
+				2A8A0AC4200C70BA009B5D4C /* SwiftLockConfiguration.swift in Sources */,
+				2A8A0AB6200C70AA009B5D4C /* SecureRandomDataGenerator.swift in Sources */,
+				2A8A0AAF200C709B009B5D4C /* SetAppLockPasscodeUseCase.swift in Sources */,
+				2A8A0ABF200C70B3009B5D4C /* DefaultBiometricAuthenticationDisablingUseCase.swift in Sources */,
+				2A8A0AAC200C709B009B5D4C /* AppLockStatusUseCase.swift in Sources */,
+				2A8A0AB5200C70AA009B5D4C /* IVProvider.swift in Sources */,
+				2A8A0ABC200C70AF009B5D4C /* DefaultUnlockAppUseCase.swift in Sources */,
+				2A8A0AA9200C7097009B5D4C /* BiometricAuthenticationDisablingUseCase.swift in Sources */,
+				2A8A0AB9200C70AF009B5D4C /* DefaultClearAppLockPasscodeUseCase.swift in Sources */,
+				2A8A0AB3200C70AA009B5D4C /* Cryptor.swift in Sources */,
+				2A8A0AB2200C70A6009B5D4C /* BiometricKeychain.swift in Sources */,
+				2A8A0AA5200C7094009B5D4C /* CryptoError.swift in Sources */,
+				2A8A0AAA200C7097009B5D4C /* BiometricAuthenticationStatusUseCase.swift in Sources */,
+				2A8A0AB1200C70A6009B5D4C /* Keychain.swift in Sources */,
+				2A8A0ABB200C70AF009B5D4C /* DefaultSetAppLockPasscodeUseCase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8A0A86200C7032009B5D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8A0A9D200C7081009B5D4C /* UserDefaultsIVProviderTests.swift in Sources */,
+				2A8A0A9E200C7084009B5D4C /* CryptorMock.swift in Sources */,
+				2A8A0AA2200C7087009B5D4C /* CryptoSupport.swift in Sources */,
+				2A8A0A99200C7081009B5D4C /* SecurityServiceTests.swift in Sources */,
+				2A8A0AA0200C7084009B5D4C /* KeychainMock.swift in Sources */,
+				2A8A0A9C200C7081009B5D4C /* CommonCryptoSecureRandomDataGeneratorTests.swift in Sources */,
+				2A8A0AA1200C7084009B5D4C /* SecureRandomDataGeneratorMock.swift in Sources */,
+				2A8A0AA3200C7087009B5D4C /* XCTFailError.swift in Sources */,
+				2A8A0A9F200C7084009B5D4C /* HashServiceMock.swift in Sources */,
+				2A8A0A9B200C7081009B5D4C /* AESCryptorTests.swift in Sources */,
+				2A8A0A9A200C7081009B5D4C /* CommonCryptoHashServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -657,6 +911,11 @@
 			isa = PBXTargetDependency;
 			target = 2A604ED3200A78F6005F3F1C /* SwiftLock */;
 			targetProxy = 2A604EDF200A78F7005F3F1C /* PBXContainerItemProxy */;
+		};
+		2A8A0A8D200C7032009B5D4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A8A0A81200C7031009B5D4C /* SwiftLock-macOS */;
+			targetProxy = 2A8A0A8C200C7032009B5D4C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -864,6 +1123,104 @@
 			};
 			name = Release;
 		};
+		2A8A0A93200C7032009B5D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "SwiftLock/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13.2;
+				PRODUCT_BUNDLE_IDENTIFIER = at.takac.SwiftLock;
+				PRODUCT_MODULE_NAME = SwiftLock;
+				PRODUCT_NAME = SwiftLock;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		2A8A0A94200C7032009B5D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "SwiftLock/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13.2;
+				PRODUCT_BUNDLE_IDENTIFIER = at.takac.SwiftLock;
+				PRODUCT_MODULE_NAME = SwiftLock;
+				PRODUCT_NAME = SwiftLock;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		2A8A0A95200C7032009B5D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "at.takac.SwiftLock-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		2A8A0A96200C7032009B5D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "at.takac.SwiftLock-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -890,6 +1247,24 @@
 			buildConfigurations = (
 				2A604EEC200A78F7005F3F1C /* Debug */,
 				2A604EED200A78F7005F3F1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A8A0A97200C7032009B5D4C /* Build configuration list for PBXNativeTarget "SwiftLock-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A8A0A93200C7032009B5D4C /* Debug */,
+				2A8A0A94200C7032009B5D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A8A0A98200C7032009B5D4C /* Build configuration list for PBXNativeTarget "SwiftLock-macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A8A0A95200C7032009B5D4C /* Debug */,
+				2A8A0A96200C7032009B5D4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
