@@ -73,7 +73,7 @@ final class BiometricSecurityService {
 
     func removeUserFromBiometricAuthentication() -> Single<Void> {
         return biometricKeychain.remove(key: keychainDecryptionKeyKey)
-            .do(onSuccess: {
+            .do(onNext: {
                 self.userDefaults.set(false, forKey: self.userDefaultsEnrollmentStatusKey)
                 self.isUserCurrentlyEnrolledInBiometricAuthentication = false
             })
@@ -89,7 +89,7 @@ final class BiometricSecurityService {
             key: keychainDecryptionKeyKey,
             explanation: explanation
         )
-        .do(onSuccess: {
+        .do(onNext: {
             self.userDefaults.set(true, forKey: self.userDefaultsEnrollmentStatusKey)
             self.isUserCurrentlyEnrolledInBiometricAuthentication = true
         })
